@@ -21,6 +21,7 @@ jobs:
       - name: Run eslint on changed files
         uses: tj-actions/eslint-changed-files@v19
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           extra_args: "-f ./sonarqube_formatter.js -o eslint_report.json"
           file_extensions: |
             **/*.js
