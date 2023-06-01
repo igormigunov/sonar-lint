@@ -32,6 +32,6 @@ jobs:
       - name: Upload ESLint report
         uses: actions/upload-artifact@v3
         with:
-         name: eslint_report.json
-        path: eslint_report.json
-        retention-days: 5
+          name: eslint_report.json
+          path: eslint_report.json
+          retention-days: 5
