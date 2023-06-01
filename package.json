@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint-json": "eslint $(git diff --name-only HEAD | grep -E '\\.(js|jsx)$' | xargs) --ext .ts,.js -f ./sonarqube_formatter.js -o eslint_report.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
