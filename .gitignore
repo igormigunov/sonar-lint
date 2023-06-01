@@ -107,10 +107,6 @@ dist
 
 mochawesome-report/
 
-.eslintrc.js
-.eslintignore
-.prettierrc
-
 # Temp folder
 temp/*.pdf
 temp/*.png
