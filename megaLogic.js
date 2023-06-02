@@ -6,6 +6,7 @@ const f2 = () => [4, 5, 6];
 
 const getDbValues = async (v = []) => Promise.resolve([...v, 1, 2, 3]);
 const getDbValues2 = async (v = []) => Promise.resolve([...v]);
+const getDbValues3 = async (v = []) => Promise.resolve([...v]);
 
 const f3 = async () => {
   f1();
@@ -14,6 +15,7 @@ const f3 = async () => {
   for (const i of d) {
     getDbValues2(i);
   }
+  await getDbValues3(d);
 };
 
 f3();
