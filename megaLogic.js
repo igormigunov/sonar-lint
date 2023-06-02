@@ -18,6 +18,16 @@ const f3 = async () => {
   for(const i of d) {
     await getDbValues2(i);
   }
+  if (d.length > 0) {
+    if (d.length > 1) {
+      if (d.length > 2) {
+        await getDbValues2(d);
+      }
+    }
+  }
+  for (const i of d) {
+    await getDbValues2(i);
+  }
   await getDbValues3(d);
 };
 
