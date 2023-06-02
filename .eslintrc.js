@@ -5,7 +5,7 @@ module.exports = {
     mocha: true,
     es2021: true,
   },
-  extends: ['airbnb', 'plugin:diff/diff'],
+  extends: ['airbnb', 'plugin:diff/ci'],
   plugins: ['no-loops'],
   globals: {
     Atomics: 'readonly',
