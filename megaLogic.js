@@ -10,7 +10,7 @@ const f3 = async () => {
   f1();
   const d = f2();
   for (const v of d) {
-    await getDbValues();
+    getDbValues(v);
   }
 };
 
