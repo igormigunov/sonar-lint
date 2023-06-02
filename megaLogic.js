@@ -15,6 +15,9 @@ const f3 = async () => {
   for (const i of d) {
     getDbValues2(i);
   }
+  for(const i of d) {
+    await getDbValues2(i);
+  }
   await getDbValues3(d);
 };
 
