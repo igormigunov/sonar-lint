@@ -29,9 +29,7 @@ const f3 = async () => {
 
   if (d.length > 0) {
     if (d.length > 1) {
-      if (d.length > 2) {
-        await getDbValues2(d);
-      }
+      await getDbValues2(d);
     }
   }
 };
