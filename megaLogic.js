@@ -15,9 +15,6 @@ const f3 = async () => {
   for (const i of d) {
     getDbValues2(i);
   }
-  for (const i of d) {
-    await getDbValues2(i);
-  }
   if (d.length > 0) {
     if (d.length > 1) {
       if (d.length > 2) {
