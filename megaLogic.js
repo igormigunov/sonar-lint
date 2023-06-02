@@ -9,9 +9,7 @@ const getDbValues = async (v = []) => Promise.resolve([...v, 1, 2, 3]);
 const f3 = async () => {
   f1();
   const d = f2();
-  for (const v of d) {
-    getDbValues(v);
-  }
+  await getDbValues(d);
 };
 
 f3();
