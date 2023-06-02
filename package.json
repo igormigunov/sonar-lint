@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint",
-    "lint:report": "eslint --output-file eslint_report.json --format json --ext .ts,.js .",
+    "lint:report": "eslint . --output-file eslint_report.json --format json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

@@ -58,6 +58,7 @@ module.exports = {
     'consistent-return': 0,
     'no-use-before-define': 0,
     'import/no-cycle': 0,
+    'no-console': 0,
   },
   overrides: [
     {

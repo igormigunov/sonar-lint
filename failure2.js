@@ -1,16 +1,12 @@
 const a = 2;
 const b = 3;
 
-doIt();
+doIt2();
 
 function doIt2 () {
   if (a === 2) {
-    console.log('a is 2');
     if (b === 3) {
-      console.log('b is 3');
-      if (a === 2) {
-        console.log('a is 2');
-      }
+      return sum(1, 2);
     }
   }
 }
